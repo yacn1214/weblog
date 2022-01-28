@@ -164,6 +164,7 @@ if(isset($_COOKIE['admin'])){
     </html>
 
 <?php
+
     if (isset($_POST['btnadmin'])){
         $user = $_POST['user'];
         $pass = $_POST['pass'];
